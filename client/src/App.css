@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.container-sizing {
+  position: relative;
+  background-color: var(--primary);
+  min-width: 90%;
+  width: 100%;
+  max-width: 1280px;
+  /* border: 1px solid white;
+  border-radius: 3px; */
+}
+
+
+.container-sizing::before,
+.container-sizing::after {
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  content: "";
+}
+
+.container-sizing::before {
+  left: 0;
+  top: 0;
+  border-left: 3px solid var(--secondary);
+  border-top: 3px solid var(--secondary);
+}
+
+.container-sizing::after {
+  right: 0;
+  bottom: 0;
+  border-right: 3px solid var(--secondary);
+  border-bottom: 3px solid var(--secondary);
+}
