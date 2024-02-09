@@ -18,6 +18,9 @@ code {
 :root {
   --primary: #0B2027;
   --secondary: #CFD7c7;
+  --third: #70A9A1;
+  --fourth: #CFD7C7;
+  --fifth: #F6F1D1;
 }
 
 #root {
